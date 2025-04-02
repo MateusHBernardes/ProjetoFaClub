@@ -2,6 +2,8 @@ body {
     background-color: #B8DEA4;
     padding: 0%;
     margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -30,4 +32,14 @@ h1 {
 
 .logoClover {
     max-height: 100%;
+}
+
+.apresentacao {
+    background-color: #D9D9D9;
+    opacity: 70%;
+    padding: 8%;
+    margin: 10%;
+    margin-bottom: 0%;
+    /* align-items: center;
+    justify-content: center; */
 }
