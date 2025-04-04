@@ -2,32 +2,26 @@ body {
     background-color: #B8DEA4;
     padding: 0%;
     margin: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(0.9px);   
+    
 }
 
 header {
     background-color: blueviolet;
-    width: 99%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* max-height: 100%; */
-
-    
+    position: relative;
+    /* color: white; */
+    /* z-index: 2; */
 }
 
 header div {
     flex: 1;
-    text-align: center;
-
-    
+    text-align: center;   
 }
 
 h1 {
@@ -52,18 +46,19 @@ p {
     opacity: 70%;
     width: 80%; 
     height: 100%;
-    align-items: center;
+    /* align-items: center; */
     max-width: max-content;
     padding: 3.24%;
     /* margin: auto; */
     margin-left: auto;
     margin-right: auto; 
     margin-top: 10%;
-    
+    color: blanchedalmond;
+    /* position: relative; */
     
 }
 
 .apresentacao {
-    color: blanchedalmond;
+    text-align: center;
     
 }
