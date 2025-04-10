@@ -1,25 +1,103 @@
-.faleConosco{
-    width: 300px;
-    margin: 0px auto;
+.faleConosco {
+    width: 400px; /* Aumenta a largura para melhor visualização */
+    margin: 20px auto; /* Adiciona espaçamento superior */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 2px solid #b1ccf5; /* Adiciona uma borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo claro para contraste */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
 }
 
-.faleConosco input, .faleConosco textarea, .faleConosco select{
-    margin: 5px auto;
+.faleConosco input, .faleConosco textarea, .faleConosco select {
+    margin: 10px 0; /* Espaçamento vertical entre os campos */
     width: 100%;
-    padding: 5px 0;
+    padding: 10px; /* Aumenta o preenchimento interno */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho de fonte consistente */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
 }
 
-.faleConosco textarea{
-    height: 100px;
-    resize: none;
+.faleConosco textarea {
+    height: 120px; /* Aumenta a altura do campo de texto */
+    resize: none; /* Impede redimensionamento */
 }
 
-.faleConosco button{
-    width: 30%;
-    margin: 0 10%;
-    background-color: #b1ccf5;
+.faleConosco button {
+    width: 40%; /* Botões mais largos */
+    margin: 10px 5%; /* Espaçamento entre os botões */
+    padding: 10px; /* Aumenta o preenchimento interno */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Texto branco */
     font-weight: bold;
     font-size: 16px;
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.faleConosco button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+.faleConosco label {
+    display: block; /* Garante que os rótulos fiquem em linhas separadas */
+    margin-bottom: 5px; /* Espaçamento entre o rótulo e o campo */
+    font-size: 14px; /* Tamanho de fonte consistente */
+    color: #333; /* Cor do texto */
+}
+
+.faleConosco legend {
+    font-size: 18px; /* Destaque para o título do fieldset */
+    color: #4CAF50; /* Cor verde para o título */
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.faleConosco fieldset {
+    border: 1px solid #ccc; /* Borda leve ao redor do fieldset */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento entre fieldsets */
+}
+
+.faleConosco .sexo-group {
+    display: flex; /* Exibe as opções lado a lado */
+    align-items: center; /* Alinha verticalmente os itens */
+    gap: 15px; /* Espaçamento entre os itens */
+    margin: 10px 0; /* Espaçamento vertical do grupo */
+}
+
+.faleConosco .sexo-group label {
+    margin: 0; /* Remove margens extras dos rótulos */
+    font-size: 14px; /* Tamanho de fonte consistente */
+    color: #333; /* Cor do texto */
+}
+
+.faleConosco .sexo-group input[type="radio"] {
+    margin-right: 5px; /* Espaçamento entre o botão e o rótulo */
+}
+
+.faleConosco .checkbox-group {
+    display: flex; /* Exibe o checkbox e o rótulo lado a lado */
+    align-items: center; /* Alinha verticalmente os itens */
+    gap: 10px; /* Espaçamento entre o checkbox e o rótulo */
+    margin: 10px 0; /* Espaçamento vertical do grupo */
+}
+
+.faleConosco .checkbox-group input[type="checkbox"] {
+    width: 18px; /* Define o tamanho do checkbox */
+    height: 18px; /* Define o tamanho do checkbox */
+    cursor: pointer; /* Mostra o cursor de ponteiro ao passar o mouse */
+}
+
+.faleConosco .checkbox-group label {
+    margin: 0; /* Remove margens extras do rótulo */
+    font-size: 14px; /* Tamanho de fonte consistente */
+    color: #333; /* Cor do texto */
+    cursor: pointer; /* Permite clicar no rótulo para marcar o checkbox */
 }
