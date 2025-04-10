@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../CSS/always.css">
-
+        <link rel="stylesheet" href="../CSS/membro.css">
         <title>SEJA MEMBRO!</title>
     </head>
 
@@ -29,6 +29,44 @@
     
         <div class="fundo">
              
+            <section>
+                <h2>Fale conosco!</h2>
+                <p>Ficou com alguma dúvida? Preencha este formulário e entraremos em contato!</p>
+                
+                <form name="frmfaleconosco" method="post" action="#">
+                    <fieldset class="faleConosco">
+                        <legend>Dados pessoais: </legend>
+                        <label for="name">Nome: </label>
+                        <input type="text" name="txtnome" id="nome">
+                        <label for="fone">Telefone: </label>
+                        <input type="text" name="txtfone" id="fone">
+                        <label for="email">Email: </label>
+                        <input type="email" name="txtemail"id="email">
+        
+                    </fieldset>
+        
+                    <fieldset class="faleConosco">
+                        <legend>Motivo do contato:</legend>
+                        <label for="motivo">Motivo: </label>
+                        <select name="selmotivo" id="motivo">
+        
+                            <option value="">Escolha</option>
+                            <option value="RE">Reclamação</option>
+                            <option value="SU">Sugestão</option>
+                            <option value="PR">Informação sobre produto</option>
+        
+                        </select>
+                        <label for="comentario">Comentário: </label>
+                        <textarea name="txacomentario" id="comentario"></textarea>
+                        <button type="reset">Limpar</button><button type="submit">Enviar</button>
+        
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- sexo(radio) -->
+            <!-- nascimento -->
+            <!-- checkbox desejo participar do fanclub -->
         
         </div>
     
